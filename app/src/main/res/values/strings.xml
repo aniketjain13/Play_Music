@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Play Music</string>
+    <string name="shuffle_button">Shuffle</string>
+    <string name="favourites_button">Favourites</string>
+    <string name="playlist_button">Playlist</string>
+    <string name="total_songs">Total Songs:</string>
+    <string name="playing">Playing</string>
+    <string name="back_btn">Back Button</string>
+    <string name="favourites_empty_btn">Favourite Button</string>
+    <string name="previous_btn">Previous Button</string>
+    <string name="play_btn">Play Button</string>
+    <string name="next_btn">Next Button</string>
+    <string name="song_name">Song</string>
+    <string name="start_text">00:00</string>
+    <string name="end_text">04:00</string>
+    <string name="repeat_btn">Repeat</string>
+    <string name="favourites_section">Favourites</string>
+    <string name="playlist_section">Playlist</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="item1">Feedback</string>
+    <string name="item2">Settings</string>
+    <string name="item3">About</string>
+    <string name="item4">Exit</string>
+    <string name="app_logo">App Logo</string>
+    <string name="nav_text">Welcome to \nPlay Music</string>
+    <string name="song_artist">Artist</string>
+    <string name="song_image">AlbumArt</string>
+    <string name="search_view">Search View</string>
+    <string name="playlist_image">Playlist Image</string>
+    <string name="playlist_text">Playlist Name</string>
+    <string name="playlist_delete">Playlist Delete</string>
+    <string name="add_button">Add</string>
+    <string name="remove_button">Remove</string>
+    <string name="remove_all">Remove All</string>
+    <string name="search">Search</string>
+    <string name="topic">Topic i.e. Suggestion, Error, etc.</string>
+    <string name="Email">Email Address (optional)</string>
+    <string name="Feedback">FeedBack</string>
+    <string name="Send">Send</string>
+    <string name="set_theme">Set Theme</string>
+    <string name="sort_by">Sort By</string>
+    <string name="version">Version: 1.13.11</string>
+
+
+</resources>

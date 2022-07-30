@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="4dp"
+        app:boxStrokeColor="?attr/themeColor"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        app:startIconTint="?attr/themeColor"
+        app:startIconDrawable="@drawable/playlist_icon"
+        android:hint="@string/playlist_text"
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playlist_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:maxLength="40" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

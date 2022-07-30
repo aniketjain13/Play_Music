@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/topicfb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/topic"
+        android:gravity="center|start"
+        android:inputType="textEmailSubject"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailfb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/Email"
+        android:gravity="center|start"
+        android:layout_marginVertical="5dp"
+        android:inputType="textEmailAddress"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/feedbackfb"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="@string/Feedback"
+        android:gravity="start|center"/>
+
+    <Button
+        android:id="@+id/buttonfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/Send"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
